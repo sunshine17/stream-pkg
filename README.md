@@ -1,8 +1,9 @@
-#Stream-pkg
+#Stream-pkgx
+forked from changchang/stream-pkg
 
 [![Build Status](https://secure.travis-ci.org/changchang/stream-pkg.png)](http://travis-ci.org/changchang/stream-pkg)
 
-Stream-pkg is a simple tool for packages that transfered on stream-based API.
+Stream-pkgx is a simple tool for packages that transfered on stream-based API.
 
 As we known, stream API is a good thing of Node.js and we could compose different applications by stream-based API conventionally. And package may be splited into small chunks when it transfered on stream-based API such as socket. We have to recompose the chunks into package when we receive them. But we have to do some jobs to find out when we get enough data to recover the original package.
 
@@ -15,7 +16,7 @@ npm install stream-pkg
 
 ##Usage
 ``` javascript
-var Composer = require('stream-pkg');
+var Composer = require('stream-pkgx');
 
 var src = 'Hello world.';
 var comp = new Composer();
